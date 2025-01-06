@@ -1,0 +1,26 @@
+[	
+
+{
+		"name": "Gnoll knifeman",
+		"unitType": "Melee",
+		"movement": 5,
+		"strength": 10,
+		"cost": 130,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Gunpowder",
+		"uniques": ["Can move after attacking"],
+		"exclusiveto": "Gnoll Tribes",
+	},{
+		"name": "Yukon settler",
+		"unitType": "Scout",
+		"movement": 5,
+		"strength": 1,
+		"cost": 20,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"Can build [Land] improvements on tiles"],
+		"exclusiveto": "Yukon Settlers",
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+
+]

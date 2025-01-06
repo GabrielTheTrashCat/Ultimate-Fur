@@ -1,0 +1,13 @@
+[	
+{
+	"name": "Yukon Settlers Hall",
+		"uniqueTo": "Yukon Settlers",
+		"culture": 1,
+		"Production": 3,
+		"cost": 50,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured", "Free [Yukon settler] Appears"]
+},
+
+]
