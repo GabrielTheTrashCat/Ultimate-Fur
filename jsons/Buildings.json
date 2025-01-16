@@ -1,25 +1,26 @@
-[
-	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+[	
+{
+	"name": "Pillage Pile",
+		"replaces": "Monument",
+		"uniqueTo": "Gnolls",
+		"faith": 3,
+		"science": 1,
+		"Culture": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Agriculture",
+		"uniques": ["Free [Gnoll knifeman] appears","Free [Gnoll knifeman] appears"]
+},{
+	"name": "Settler Hall",
+		"replaces": "Monument",
+		"uniqueTo": "Yukon settlers",
+		"faith": 0,
+		"science": 2,
+		"Culture": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Agriculture",
+		"uniques": ["Free [Working Pioneer] appears"]
+}
+
 ]
